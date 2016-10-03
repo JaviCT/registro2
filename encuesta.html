@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="estilos_form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div>
+	<form id="f_encuesta" name="f_encuesta" method="post" action="encuesta.php" >
+    	<p>Situación laboral</p>
+		<p>
+        	<label>Ocupado
+         		<input type="radio" name="respuesta" id="si" value="ocupado" checked="checked" />
+            </label>
+        </p>
+        <br>
+        <p>
+        	<label>Parado
+            	<input type="radio" name="respuesta" id="no" value="parado" />
+            </label>
+		</p>
+        <br>
+		<p>
+ 			<input type="submit" name="botton" id="botton" value="Enviar">
+		</p>
+	</form>
+    
+</div>
+
+</body>
+</html>

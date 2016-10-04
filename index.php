@@ -6,10 +6,8 @@
 <p align='center'><font size="30" color="#606060"><u> Mi página web </u></font></p>
 
 <?php
-include ("visitas.php");
-?>
 
-<?php
+include ("visitas.php");
 
 $cantidad = 3;
 

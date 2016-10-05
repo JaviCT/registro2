@@ -15,7 +15,7 @@ $cambio = rand(1,$cantidad);
 
 $imagen = array(1=>"imagenes/imagen1.jpg", 2=>"imagenes/imagen2.jpg", 3=>"imagenes/imagen3.jpg");
 
-echo "<p align='center'> <img src=" .$imagen[$cambio]. "></p>";
+echo "<p align='center'> <img style='width: 800px; height: 246px;' src=" .$imagen[$cambio]. "></p>";
 
 ?>
 

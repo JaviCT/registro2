@@ -1,11 +1,11 @@
 <?php
 
 echo <<< HTML
-<link href="estilos_encuesta.css" rel="stylesheet" type="text/css" />
+<link href="../estilos/estilos_encuesta.css" rel="stylesheet" type="text/css" />
 HTML;
 
-$a = "ocupado.txt";
-$b = "parado.txt";
+$a = "../ficheros/ocupado.txt";
+$b = "../ficheros/parado.txt";
 
 $c = $_POST['respuesta'];
 
@@ -42,11 +42,11 @@ $porb=intval($porb,10);
 echo "La encuesta ha sido realizada por: " .$puntos. " navegantes.<br><br>";
 
 echo "Los usuarios opupados laboralmente son: " .$contar1. " - " .$pora. "% &nbsp; &nbsp;";
-echo "<div class=\"imagen\" style='width:".(2*$pora)."px'><img height=30px width=200px src=imagenes/rojo.png></div><br>";
+echo "<div class=\"imagen\" style='width:".(2*$pora)."px'><img height=30px width=200px src=../imagenes/rojo.png></div><br>";
 
 echo "Los usuarios parados laboralmente son: " .$contar2. " - " .$porb. "% &nbsp; &nbsp;";
-echo "<div class=\"imagen\" style='width:".(2*$porb)."px'><img height=30px width=200px src=imagenes/azul.png></div><br>";
+echo "<div class=\"imagen\" style='width:".(2*$porb)."px'><img height=30px width=200px src=../imagenes/azul.png></div><br>";
 
-echo "<a href='encuesta.html'>Volver a la encuesta.</a>";
+echo "<a href='../encuesta.html'>Volver a la encuesta.</a>";
 
 ?>

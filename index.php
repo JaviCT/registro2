@@ -7,7 +7,7 @@
 
 <?php
 
-include ("visitas.php");
+include ("php/visitas.php");
 
 $cantidad = 3;
 
@@ -15,7 +15,9 @@ $cambio = rand(1,$cantidad);
 
 $imagen = array(1=>"imagenes/imagen1.jpg", 2=>"imagenes/imagen2.jpg", 3=>"imagenes/imagen3.jpg");
 
-echo "<p align='center'> <img style='width: 800px; height: 246px;' src=" .$imagen[$cambio]. "></p>";
+echo "<p align='center' style='overflow: hidden; float: center;'> <img style= 'width='800'; height='500'' src=" .$imagen[$cambio]. " /></p>";
+
+echo "<a href='formularios/index-formularios.html'>Formularios</a>"
 
 ?>
 

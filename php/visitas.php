@@ -1,6 +1,6 @@
 <?php
 
-$a = "visitas.txt";
+$a = "ficheros/visitas.txt";
 
 $abrir=fopen($a,"r");
 

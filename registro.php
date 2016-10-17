@@ -43,7 +43,7 @@
 				<p align='center'><font size="30" color="#606060"><u> Mi página web </u></font></p>
 
 				<?php
-					include ("php/visitas.php");
+					require ("formularios/formulario_registro.html");
 					$cantidad = 3;
 					$cambio = rand(1,$cantidad);
 					$imagen = array(1=>"imagenes/imagen1.jpg", 2=>"imagenes/imagen2.jpg", 3=>"imagenes/imagen3.jpg");

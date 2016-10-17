@@ -1,6 +1,6 @@
 <?php
 
-$a = "ficheros/visitas.txt";
+$a = "files/visitas.txt";
 
 $abrir=fopen($a,"r");
 
@@ -16,6 +16,6 @@ $grabar=fwrite($abrir,$total);
 
 fclose ($abrir);
 
-echo "<p align='center'> La página web ha sido visitada por <font size='50' color='red'>" .$total. "</font> navegantes.</p>";
+echo "<p> La página web ha sido visitada por <font size='50' color='red'>" .$total. "</font> navegantes.</p>";
 
 ?>

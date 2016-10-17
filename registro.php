@@ -33,7 +33,7 @@
 <body>
 
 <?php
-	require ("header.html");
+	require ("navbar.html");
 ?>
 	
 	<div class="content-section-b">
@@ -43,12 +43,12 @@
 				<p align='center'><font size="30" color="#606060"><u> Mi página web </u></font></p>
 
 				<?php
-					require ("formularios/formulario_registro.html");
+					require ("forms/formulario_registro.html");
 					$cantidad = 3;
 					$cambio = rand(1,$cantidad);
-					$imagen = array(1=>"imagenes/imagen1.jpg", 2=>"imagenes/imagen2.jpg", 3=>"imagenes/imagen3.jpg");
+					$imagen = array(1=>"img/imagen1.jpg", 2=>"img/imagen2.jpg", 3=>"img/imagen3.jpg");
 					echo "<p align='center' style='overflow: hidden; float: center;'> <img style= 'width='800'; height='500'' src=" .$imagen[$cambio]. " /></p>";
-					echo "<a href='formularios/index-formularios.html'>Formularios</a>"
+					echo "<a href='forms/index-formularios.html'>Formularios</a>"
 				?>
 			</div>
 		</div>

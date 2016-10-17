@@ -33,20 +33,21 @@
 <body>
 
 <?php
-	require ("header.html");
+	require ("navbar.html");
 ?>
 
     <!-- Header -->
     <a name="about"></a>
     <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
+                    <div class="visit">
+                        <?php
+                            require ("php/visitas.php");
+                        ?>
+                    </div>
                     <div class="intro-message">
-						<?php
-							require ("php/visitas.php");
-						?>
                         <h1>Registro 2</h1>
                         <h3>Mis pruebas</h3>
                         <hr class="intro-divider">
